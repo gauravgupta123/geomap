@@ -1,19 +1,62 @@
----
-# A list of countries states and cities
-countries:
-  - Afghanistan
+--- 
+countries: 
+  - Afghanistan:
+    - states:
+      - Badakhshan
+      - Badghis
+      - Balkh
+      - Bamian
+      - Farah
+      - Faryab
+      - Ghazni
+      - Ghowr
+      - Helmand
+      - Herat
+      - Jowzjan
+      - Kabul
+      - Kandahar
+      - Kapisa
+      - Khowst
+      - Konar
+      - Kunduz
+      - Laghman
+      - Lowgar
+      - Nangarhar
+      - Nimruz
+      - Nurestan
+      - Oruzgan
+      - Paktia
+      - Paktika
+      - Panjshir
+      - Parvan
+      - Samangan
+      - Sar-e Pol
+      - Takhar
+      - Vardak
+      - Wilayat-e Baghlan
+      - Wilayat-e Daykundi
+      - Zabul
   - Albania
   - Algeria
   - Andorra
   - Angola
-  - Antigua and Barbuda
+  - "Antigua and Barbuda"
   - Argentina
   - Armenia
   - Aruba
-  - Australia
+  - Australia: 
+    - states:
+      - Australian Capital Territory
+      - New South Wales
+      - Northern Territory
+      - Queensland
+      - South Australia
+      - Tasmania
+      - Victoria
+      - Western Australia
   - Austria
   - Azerbaijan
-  - Bahamas, The
+  - "Bahamas, The"
   - Bahrain
   - Bangladesh
   - Barbados
@@ -23,50 +66,87 @@ countries:
   - Benin
   - Bhutan
   - Bolivia
-  - Bosnia and Herzegovina
+  - "Bosnia and Herzegovina"
   - Botswana
   - Brazil
   - Brunei
   - Bulgaria
-  - Burkina Faso
+  - "Burkina Faso"
   - Burma
   - Burundi
   - Cambodia
   - Cameroon
-  - Canada
-  - Cape Verde
-  - Central African Republic
+  - Canada:
+    - states:
+      - Alberta
+      - British Columbia
+      - Manitoba
+      - New Brunswick
+      - Newfoundland and Labrador
+      - Northwest Territories
+      - Nova Scotia
+      - Nunavut
+      - Ontario
+      - Prince Edward Island
+      - Quebec
+      - Saskatchewan
+      - Yukon
+  - "Cape Verde"
+  - "Central African Republic"
   - Chad
   - Chile
   - China
   - Colombia
   - Comoros
-  - Congo, Democratic Republic of the
-  - Congo, Republic of the
-  - Costa Rica
-  - Cote d Ivoire
+  - "Congo, Democratic Republic of the"
+  - "Congo, Republic of the"
+  - "Costa Rica"
+  - "Cote d Ivoire"
   - Croatia
   - Cuba
   - Curacao
   - Cyprus
-  - Czech Republic
+  - "Czech Republic"
   - Denmark
   - Djibouti
   - Dominica
-  - Dominican Republic
-  - East Timor
+  - "Dominican Republic"
+  - "East Timor"
   - Ecuador
   - Egypt
-  - El Salvador
-  - Equatorial Guinea
+  - "El Salvador"
+  - "Equatorial Guinea"
   - Eritrea
   - Estonia
   - Ethiopia
   - Fiji
   - Finland
-  - France
+  - France:
+    - states:
+      - Alsace
+      - Aquitaine
+      - Auvergne
+      - Bourgogne
+      - Brittany
+      - Centre
+      - Champagne-Ardenne
+      - Corsica
+      - Franche-Comte
+      - Haute-Normandie
+      - Ile-de-France
+      - Languedoc-Roussillon
+      - Limousin
+      - Lorraine
+      - Lower Normandy
+      - Midi-Pyrenees
+      - Nord-Pas-de-Calais
+      - Pays de la Loire
+      - Picardie
+      - Poitou-Charentes
+      - Provence-Alpes-Cote d'Azur
+      - Rhone-Alpes
   - Gabon
-  - Gambia, The
+  - "Gambia, The"
   - Georgia
   - Germany
   - Ghana
@@ -77,26 +157,132 @@ countries:
   - Guinea-Bissau
   - Guyana
   - Haiti
-  - Holy See
+  - "Holy See"
   - Honduras
-  - Hong Kong
+  - "Hong Kong"
   - Hungary
   - Iceland
-  - India
+  - India:
+    - states:
+      - Andaman and Nicobar Islands
+      - Andhra Pradesh
+      - Arunachal Pradesh
+      - Assam
+      - Bengal
+      - Bihar
+      - Chandigarh
+      - Chhattisgarh
+      - Dadra and Nagar Haveli
+      - Daman and Diu
+      - Goa
+      - Gujarat
+      - Haryana
+      - Himachal Pradesh
+      - Jharkhand
+      - Karnataka
+      - Kashmir
+      - Kerala
+      - Laccadives
+      - Madhya Pradesh
+      - Maharashtra
+      - Manipur
+      - Meghalaya
+      - Mizoram
+      - Nagaland
+      - New Delhi (NCR/NCT)
+      - Orissa
+      - Punjab
+      - Rajasthan
+      - Sikkim
+      - Tamil Nadu
+      - Tripura
+      - Union Territory of Pondicherry
+      - Uttar Pradesh
+      - Uttarakhand
   - Indonesia
   - Iran
   - Iraq
   - Ireland
   - Israel
-  - Italy
+  - Italy:
+    - states:
+      - Abruzzo
+      - Aosta Valley
+      - Apulia
+      - Basilicate
+      - Calabria
+      - Campania
+      - Emilia-Romagna
+      - Friuli Venezia Giulia
+      - Latium
+      - Liguria
+      - Lombardy
+      - Molise
+      - Piedmont
+      - Sardinia
+      - Sicily
+      - The Marches
+      - Trentino-Alto Adige
+      - Tuscany
+      - Umbria
+      - Veneto
   - Jamaica
-  - Japan
+  - Japan:
+    - states:
+      - Aichi
+      - Akita
+      - Aomori Prefecture
+      - Chiba
+      - Ehime
+      - Fukui
+      - Fukuoka
+      - Fukushima
+      - Gifu
+      - Gunma
+      - Hiroshima
+      - Hokkaido
+      - Hyogo
+      - Ibaraki
+      - Ishikawa
+      - Iwate
+      - Kagawa
+      - Kagoshima
+      - Kanagawa
+      - Kochi
+      - Kumamoto Prefecture
+      - Kyoto
+      - Mie
+      - Miyagi
+      - Miyazaki
+      - Nagano
+      - Nagasaki
+      - Nara
+      - Niigata
+      - Oita
+      - Okayama
+      - Okinawa
+      - Osaka
+      - Saga
+      - Saitama
+      - Shiga
+      - Shimane Prefecture
+      - Shizuoka
+      - Tochigi
+      - Tokushima
+      - Tokyo
+      - Tottori
+      - Toyama
+      - Wakayama
+      - Yamagata
+      - Yamaguchi
+      - Yamanashi
+
   - Jordan
   - Kazakhstan
   - Kenya
   - Kiribati
-  - Korea, North
-  - Korea, South
+  - "Korea, North"
+  - "Korea, South"
   - Kosovo
   - Kuwait
   - Kyrgyzstan
@@ -117,7 +303,7 @@ countries:
   - Maldives
   - Mali
   - Malta
-  - Marshall Islands
+  - "Marshall Islands"
   - Mauritania
   - Mauritius
   - Mexico
@@ -132,18 +318,18 @@ countries:
   - Nauru
   - Nepal
   - Netherlands
-  - Netherlands Antilles
-  - New Zealand
+  - "Netherlands Antilles"
+  - "New Zealand"
   - Nicaragua
   - Niger
   - Nigeria
-  - North Korea
+  - "North Korea"
   - Norway
   - Pakistan
   - Palau
-  - Palestinian Territories
+  - "Palestinian Territories"
   - Panama
-  - Papua New Guinea
+  - "Papua New Guinea"
   - Paraguay
   - Peru
   - Philippines
@@ -153,28 +339,28 @@ countries:
   - Romania
   - Russia
   - Rwanda
-  - Saint Kitts and Nevis
-  - Saint Lucia
-  - Saint Vincent and the Grenadines
+  - "Saint Kitts and Nevis"
+  - "Saint Lucia"
+  - "Saint Vincent and the Grenadines"
   - Samoa
-  - San Marino
-  - Sao Tome and Principe
-  - Saudi Arabia
+  - "San Marino"
+  - "Sao Tome and Principe"
+  - "Saudi Arabia"
   - Senegal
   - Serbia
   - Seychelles
-  - Sierra Leone
+  - "Sierra Leone"
   - Singapore
-  - Sint Maarten
+  - "Sint Maarten"
   - Slovakia
   - Slovenia
-  - Solomon Islands
+  - "Solomon Islands"
   - Somalia
-  - South Africa
-  - South Korea
-  - South Sudan
+  - "South Africa"
+  - "South Korea"
+  - "South Sudan"
   - Spain
-  - Sri Lanka
+  - "Sri Lanka"
   - Sudan
   - Suriname
   - Swaziland
@@ -188,15 +374,67 @@ countries:
   - Timor-Leste
   - Togo
   - Tonga
-  - Trinidad and Tobago
+  - "Trinidad and Tobago"
   - Tunisia
   - Turkey
   - Turkmenistan
   - Tuvalu
   - Uganda
   - Ukraine
-  - United Arab Emirates
-  - United Kingdom
+  - "United Arab Emirates"
+  - "United Kingdom"
+  - "United States of America":
+    - states:
+      - Alabama
+      - Alaska
+      - Arizona
+      - Arkansas
+      - California
+      - Colorado
+      - Connecticut
+      - Delaware
+      - Florida
+      - Georgia
+      - Hawaii
+      - Idaho
+      - Illinois
+      - Indiana
+      - Iowa
+      - Kansas
+      - Kentucky
+      - Louisiana
+      - Maine
+      - Maryland
+      - Massachusetts
+      - Michigan
+      - Minnesota
+      - Mississippi
+      - Missouri
+      - Montana
+      - Nebraska
+      - Nevada
+      - New Hampshire
+      - New Jersey
+      - New Mexico
+      - New York
+      - North Carolina
+      - North Dakota
+      - Ohio
+      - Oklahoma
+      - Oregon
+      - Pennsylvania
+      - Rhode Island
+      - South Carolina
+      - South Dakota
+      - Tennessee
+      - Texas
+      - Utah
+      - Vermont
+      - Virginia
+      - Washington
+      - West Virginia
+      - Wisconsin
+      - Wyoming
   - Uruguay
   - Uzbekistan
   - Vanuatu
@@ -205,5 +443,3 @@ countries:
   - Yemen
   - Zambia
   - Zimbabwe
-# Maintained by Gaurav Gupta
-...
